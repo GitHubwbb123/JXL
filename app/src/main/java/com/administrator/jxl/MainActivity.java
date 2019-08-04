@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ;
         text=(TextView)findViewById(R.id.excel);
         add=(Button)findViewById(R.id.adda);
         del=(Button)findViewById(R.id.delate);
